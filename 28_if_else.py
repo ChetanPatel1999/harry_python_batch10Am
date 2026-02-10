@@ -16,7 +16,12 @@ alpha=input("enter a alphabet : ")
 # else:
 #     print('char is not alpha')
 
-if ord(alpha.lower())>=97 and ord(alpha.lower())<=122:
+# if ord(alpha.lower())>=97 and ord(alpha.lower())<=122:
+#     print('char is alpha')
+# else:
+#     print('char is not alpha')
+
+if  ord(alpha) in range(97,123) or ord(alpha) in range(65,91):
     print('char is alpha')
 else:
     print('char is not alpha')
