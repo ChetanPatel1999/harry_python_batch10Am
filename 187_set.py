@@ -21,4 +21,4 @@ for num in l1:
         d1[num]+=1
 print(l1)        
 print(d1)        
-
+1
