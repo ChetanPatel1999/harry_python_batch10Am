@@ -1,4 +1,4 @@
- # for j in range(1,6):
-    #     print("* ",end="")        
-    # for j in range(1,6):
-    #     print("* ",end="")
+add(23,89)
+# add(23,89,10)
+# add(23 ,89 ,10 ,20)
+# add(23.34 ,89.12 ,10.3 ,20.5)
