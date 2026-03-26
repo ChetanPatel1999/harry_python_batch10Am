@@ -1,0 +1,43 @@
+class student:
+    def setStudent(self):
+        self.name=input("enter your name : ")
+        self.rno=int(input("enter your rno : "))
+        self.fees=int(input("enter your fess : "))
+        print("\n")
+    def displayStudent(self):
+        print("student info : ")
+        print("student name : ",self.name)
+        print("student rno : ",self.rno)
+        print("student fees : ",self.fees)
+        print("-------------------------------\n")
+
+    def maxFess(ob1,ob2,ob3):  
+        if ob1.fees>ob2.fees and ob1.fees>ob3.fees:
+            print("max fess of :",ob1.fees)
+            print("studant name :",ob1.name)
+        elif ob2.fees>ob3.fees:
+            print("max fess of :",ob2.fees)
+            print("studant name :",ob2.name)    
+        else:
+            print("max fess of :",ob3.fees)
+            print("studant name :",ob3.name)   
+ 
+
+
+
+
+s1=student()
+s2=student()
+s3=student()
+
+
+s1.setStudent()
+s2.setStudent()         
+s3.setStudent()
+
+s1.displayStudent()
+s2.displayStudent()
+s3.displayStudent()
+     
+
+student.maxFess(s1,s2,s3)
