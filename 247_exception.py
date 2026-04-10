@@ -11,8 +11,8 @@ try:
 except ZeroDivisionError:
     c=a/2
     print("result : ",c) 
-except ValueError:
-    print("value error find") 
+except ValueError as v:
+    print(v) 
 except IndexError:
     print("index error")
 except :

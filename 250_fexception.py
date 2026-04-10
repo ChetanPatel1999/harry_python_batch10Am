@@ -1,11 +1,13 @@
-#without exception handling
-l1=[12,34,56,78]
-print("welcome to my program")
-index= int(input("enter a index : ")) 
+#custome exception generate
+num= int(input("enter a num : "))
 try:
-    print("value of given index : ",l1[index])
-except IndexError as ob:
-    print(ob)    
+   if num<0:
+     raise ValueError("nagative value error")
+except ValueError as v:
+   print(v) 
+
+else:
+   print("your value : ",num)
 print("program run succefully")
 
 print("<---------------------------------->")
