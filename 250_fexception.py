@@ -5,7 +5,7 @@ try:
      raise ValueError("nagative value error")
 except ValueError as v:
    print(v) 
-
+251_
 else:
    print("your value : ",num)
 print("program run succefully")
